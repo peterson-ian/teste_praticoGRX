@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-size: 1.05rem;
+}
+.card{
+    border-radius: 15px !important;
+    min-width: 42vw !important;
+}
+
+.container-img{
+    background-color:#5e72e4 !important;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+label{
+    font-size: 20px;
+}
+
+h3{
+    color: #f6f9fc;
+    font-family: 'Gruppo', cursive;
+}
+.tabela{
+    width: 100%;
+}
+
+.thead-light th {
+    color: rgb(70, 70, 70);
+    background-color: #f6f9fc;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+td, th{
+    padding: 5px;
+}
+
+.btn-add, .btn-edit, .btn-saveEdit{
+    border-radius: 5px;
+    border: none;
+    font-size: 19px;
+    background-color: #2dce89 !important;
+    color: aliceblue !important;
+}
+
+.btn-add:hover, .btn-edit:hover, .btn-saveEdit:hover{
+    border-radius: 5px;    background-color: #30ab75 !important;
+}
+
+input{
+    padding: 5px;
+}
+
+tr td:last-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+tr td:last-child button{
+    width: 100%;
+    padding: 3px;
+    margin: 3px;
+}
